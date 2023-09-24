@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+div#wrapper {
+    display: none;
+}
+/* div#loader {
+    display: block;
+} */
+/* div.loader{
+    display: none;
+} */
+/* You can further customize the scrollbar appearance if needed */
+.blur-container::-webkit-scrollbar {
+    width: 5px; /* Adjust scrollbar width */
+  }
+  div.rightBox::-webkit-scrollbar {
+    width: 3px; /* Adjust scrollbar width */
+  }
+  div.rightBox::-webkit-scrollbar-thumb {
+    background-color: #51808459; /* Scrollbar thumb color */
+  }
+  .blur-container::-webkit-scrollbar-thumb {
+    background-color: #888888d4; /* Scrollbar thumb color */
+  }
+  /* Additional on hover */
+  /* .blur-container::-webkit-scrollbar-thumb:hover {
+    background-color: #555; 
+  } */
+  .boxCont{
+    box-shadow: 0 4px 64px #00000026;
+  }
+
+  div.carouselEffect img{
+    animation: slide1 30s ease infinite;
+  }
+@keyframes slide1 {
+    0% {
+        transform: translateX(0);
+    }
+    12.5% {
+        transform: translateX(-100%);
+    }
+    31.25% {
+        transform: translateX(-200%);
+    }
+    43.75% {
+        transform: translateX(-300%);
+    }
+    56.25% {
+        transform: translateX(-400%);
+    }
+    68.75% {
+        transform: translateX(-500%);
+    }
+    81.25% {
+        transform: translateX(-600%);
+    }
+    100% {
+        transform: translateX(-700%);
+    }
+}
+
+/*   
+@keyframes slide1 {
+  0% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(-100%);
+  }
+  45% {
+    transform: translateX(-200%);
+  }
+  55% {
+    transform: translateX(-300%);
+  }
+  60% {
+    transform: translateX(-400%);
+  }
+  70% {
+    transform: translateX(-500%);
+  }
+  80% {
+    transform: translateX(-600%);
+  }
+  100% {
+    transform: translateX(-700%);
+  }
+} */
+
+.txt-fld input:focus + label,
+.txt-fld input:valid + label {
+    transform: translateY(-25px); 
+    font-size: 12px;
+    font-weight: 600;
+    color: #1c4980; 
+}
+.txt-fld.invalid input{
+  border-color: #d63601; 
+}
+.errorMessage{
+display: block;
+}
