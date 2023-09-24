@@ -14,8 +14,7 @@
 </div>
 
 <h4 align="cenetr">#Unstop_website-login_page</h4>
-<p>Offical premium website for students to pracitce their skills, participate in contests organised by big companies like P&amp;G, Flipkart, TATA, Hackerrank,Amazon etc.
-  Here any student/graduate can find suitable job according to their talent of work specially software developers or engineers and web developers.
+<p>Official premium website for students to practice their skills, participate in contests organized by big companies like P&G, Flipkart, TATA, Hacker Rank, Amazon etc. Here any student/graduate can find suitable job according to their talent of work specially software developers or engineers and web developers.
 </p>
 
 ###
