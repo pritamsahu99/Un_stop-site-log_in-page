@@ -10,7 +10,7 @@
 
 ###
 <div align="center">
-  <img height="300" src="https://i121.fastpic.org/big/2023/0417/56/7e484cb65adf2ea8dfe534a742ad8456.jpg"  />
+  <img height="300" src="[https://i121.fastpic.org/big/2023/0417/56/7e484cb65adf2ea8dfe534a742ad8456.jpg](https://d8it4huxumps7.cloudfront.net/uploads/images/unstop/branding-guidelines/png/unstop-logo-500x198.png)"  />
 </div>
 
 <h4 align="cenetr">#Unstop_website-login_page</h4>
@@ -23,7 +23,7 @@
 <h6 align="left">🛠 Language and tools used<br><br># HTML <br># CSS <br># JavaScript</h6>
 
 ###
-
+<div align="center">Connect to me here and visit my profile here</div>
 <div align="center">
   <a href="https://www.linkedin.com/in/pritam-sahu-532183268/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="20" alt="linkedin logo"  />
