@@ -16,8 +16,11 @@ div#wrapper {
     display: none;
 } */
 /* You can further customize the scrollbar appearance if needed */
-.blur-container::-webkit-scrollbar {
+body::-webkit-scrollbar {
     width: 5px; /* Adjust scrollbar width */
+  }
+body::-webkit-scrollbar-thumb {
+    background-color: #888888d4; /* Scrollbar thumb color */
   }
   div.rightBox::-webkit-scrollbar {
     width: 3px; /* Adjust scrollbar width */
@@ -25,9 +28,7 @@ div#wrapper {
   div.rightBox::-webkit-scrollbar-thumb {
     background-color: #51808459; /* Scrollbar thumb color */
   }
-  .blur-container::-webkit-scrollbar-thumb {
-    background-color: #888888d4; /* Scrollbar thumb color */
-  }
+ 
   /* Additional on hover */
   /* .blur-container::-webkit-scrollbar-thumb:hover {
     background-color: #555; 

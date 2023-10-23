@@ -8,23 +8,24 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="tailwindMani.css">
 </head>
-<body class=" overflow-x-hidden">
-    <div class="blur-container overflow-y-scroll relative flex items-center justify-center xl:h-screen xl:w-full">
-        <div id="loader" class="flex flex-col space-y-7 absolute">
-            <img width="100px" height="40px" class="visible relative" src="./assets/un-stop_logo.svg">
-            <p class="text-[#1c4980] font-Arial tracking-tight text-center font-normal">Please Wait</p>
-        </div>
-        <div id="wrapper" class="relative flex h-screen w-full">
-            <section class="relative h-screen w-full">
-                <img width="594px" height="437px" class="absolute hidden md:flex -z-[1] left-0 -bottom-[70px] bg-left-bottom" src="./assets/asset 12.png" alt="">
-                <img width="594px" height="426px" class="absolute hidden md:flex -z-[1] right-0 -top-[70px] bg-right-top" src="./assets/asset 13.png" alt="">
-                <section class="relative z-10 flex justify-center items-center h-screen w-full">
-                    <div class="boxCont flex xl:h-[90vh] md:h-[90vh] h-[100vh] w-screen pt-[10px] pb-[10px] pl-[10px] md:rounded-t-xl md:rounded-br-xl md:rounded-bl-[60px] bg-[#fff] xl:w-[900px] md:w-[900px]">
-                        <div class="leftBox hidden md:flex justify-center relative z-10 w-[80%] xl:w-[384px] overflow-hidden md:rounded-tl-xl
+<body class="overflow-x-hidden">
+    <div class="blur-container relative flex items-center justify-center h-screen w-full">
+      <div id="loader" class="flex flex-col space-y-7 absolute">
+        <img width="100px" height="40px" class="visible relative" src="./assets/un-stop_logo.svg">
+        <p class="text-[#1c4980] font-Arial tracking-tight text-center font-normal">Please Wait</p>
+      </div>
+    </div>
+      <div id="wrapper" class="relative flex h-full w-full">
+        <section class="relative h-full mainSection w-full">
+          <img width="594px" height="437px" class="absolute hidden md:flex -z-[1] left-0 -bottom-[70px] bg-left-bottom" src="./assets/asset 12.png" alt="">
+          <img width="594px" height="426px" class="absolute hidden md:flex -z-[1] right-0 -top-[70px] bg-right-top" src="./assets/asset 13.png" alt="">
+              <section class="relative z-10 flex justify-center items-center h-screen w-full">
+                    <div class="boxCont bg-[#fff] flex md:h-[90vh] md:w-[900px] h-screen w-screen md:py-[10px] md:pl-[10px] md:rounded-t-xl md:rounded-br-xl overflow-hidden md:rounded-bl-[60px] ">
+                        <div class="leftBox hidden md:flex justify-center relative z-10 md:[900px] w-[600px] overflow-hidden md:rounded-tl-xl
                             rounded-tr-[60px] rounded-br-xl rounded-bl-[60px] h-full bg-[#FFC700]">
                             <img class="bg-cover overflow-hidden absolute mix-blend-overlay" src="./assets/asset 14.png" alt="">
                             <img width="83px" class="absolute z-20 top-5 left-5" src="./assets/un-stop_logo.svg" alt="">
-                            <div class="h-full relative p-5 flex flex-col justify-center gap-5 w-full z-50 ">
+                            <div class="h-full relative p-5 flex flex-col justify-center gap-5 z-50 ">
                                 <div class="carouselEffect relative flex items-center overflow-hidden ">
                                     <img width="345px" src="./assets/asset 1.png">
                                     <img width="345px" src="./assets/asset 2.png">
@@ -37,46 +38,47 @@
                                 </div> 
                             </div>                                
                         </div>
-                        <div class="rightBox flex relative z-10 w-full xl:w-[510px] overflow-y-scroll">
-                            <div class="w-full flex flex-col justify-center items-center h-full md:my-[14px] py-4 md:mx-10 relative">
-                                <div class="w-full flex items-center gap-[10px] mb-10 relative">
-                                    <img width="100px" class="absolute md:hidden z-40 -left-15 -top-12" src="./assets/un-stop_logo.svg">
-                                    <img class="absolute block -left-11 -top-[16px]" src="./assets/asset 11.svg">
-                                    <img class="z-20" width="40px" height="40px" src="./assets/asset 9.png">
-                                    <div>
-                                        <span class="text-xs text-[#383838]">Hi, Unstoppable</span>
-                                        <h2 class="text-xl text-[#383838] font-medium">Welcome Back to Unstop!</h2>
+                        <div class="rightBox flex justify-center relative z-10 w-full xl:w-[1200px] overflow-y-scroll">
+
+                                <form class="xl:w-[100vw] h-full w-[90vw] md:p-8 py-16 relative">
+                                  <div class="w-full flex flex-col md:justify-between justify-start relative">
+                                    <div class="w-full flex items-center gap-[10px] mb-10 relative">
+                                        <img width="90px" class="absolute md:hidden z-40 -left-15 -top-12" src="./assets/un-stop_logo.svg">
+                                        <img class="absolute block -left-11 -top-[16px]" src="./assets/asset 11.svg">
+                                        <img class="z-20" width="40px" height="40px" src="./assets/asset 9.png">
+                                        <div>
+                                            <span class="text-xs text-[#383838]">Hi, Unstoppable</span>
+                                            <h2 class="text-xl text-[#383838] font-medium">Welcome Back to Unstop!</h2>
+                                        </div>
+                                        <p class="w-2/4 h-[2px] absolute left-1 -bottom-[10px] bg-[#e7e5e5]
+                                        bg-gradient-to-r from-white via-[#e7e5e5] to-white">
+                                        </p>
                                     </div>
-                                    <p class="w-2/4 h-[2px] absolute left-1 -bottom-[10px] bg-[#e7e5e5]
-                                    bg-gradient-to-r from-white via-[#e7e5e5] to-white">
-                                    </p>
-                                </div>
-                                <div class="relative w-full px-2 py-[2px]">
-                                    <div class="flex px-3 text-[#202124] border border-[#dadce0] hover:border-[#9bf7ffe1] hover:bg-[#9bf7ff0a] active:bg-blue-50 ease-in duration-100 rounded cursor-pointer h-10 text-center relative max-w-[400px] xl:max-w-[400px] items-center justify-between">
-                                    <img width="20px" src="./assets/google.png" alt="">
-                                    <p class="text-sm grow-[1] font-medium tracking-[0.25px]">Continue with Google</p>
+                                    <div class="relative w-full px-2 py-[2px]">
+                                      <div class="flex w-full px-4 text-[#202124] border border-[#dadce0] hover:border-[#9bf7ffe1] hover:bg-[#9bf7ff10] active:bg-blue-50 ease-in duration-100 rounded cursor-pointer h-10 text-center relative items-center justify-between">
+                                        <img width="20px" src="./assets/google.png" alt="">
+                                        <p class="text-sm grow-[1] font-medium tracking-[0.25px]">Continue with Google</p>
+                                      </div>
                                     </div>
-                                </div>
-                                <div class="relative w-full flex my-6 justify-center">
-                                    <div class="absolute h-[1px] w-full top-0 m-auto bottom-0 left-0 
-                                        border-dashed border-t border-[#dadce0] -z-[1]"></div>
-                                    <span class="relative bg-[#fff] px-2 text-[#afafaf]
-                                         text-xs z-10 text-center">Or login with email
-                                        </span>
-                                </div>
-                                <form method="post" class="w-full relative">
-                                    <div class="txt-fld h-[50px] flex items-center relative">
+                                    <div class="relative w-full flex my-6 justify-center">
+                                        <div class="absolute h-[1px] w-full top-0 m-auto bottom-0 left-0 
+                                            border-dashed border-t border-[#dadce0] -z-[1]"></div>
+                                        <span class="relative bg-[#fff] px-2 text-[#afafaf]
+                                             text-xs z-10 text-center">Or login with email
+                                            </span>
+                                    </div>
+                                    <div class="txt-fld w-full h-[50px] flex items-center relative">
                                         <input class="w-full h-full border rounded-lg border-[#dadce0] transition-ring ease-in-out duration-200
                                         z-10 px-4 relative focus:outline-none focus:ring-[1.5px] focus:ring-[#1c4980]" type="email" id="email" required>
                                         <label id="label1" class="absolute z-[10] bg-[#fff] rounded-lg transition-all ease-linear duration-200 font-medium text-sm text-[#afafaf]
                                         left-[10px] px-[6px]" for="email">Email Id</label>
                                     </div>
-                                    <span id="error-message1" class="errorMessage hidden text-[#d63601] mt-[5px] text-[10px]
+                                    <span id="error-message1" class="errorMessage w-full hidden text-[#d63601] mt-[5px] text-[10px]
                                         font-medium text-right">Please enter valid email</span>
-                                    <span id="logIn" class="text-[#0073e6] text-xs font-medium
+                                    <span id="logIn" class="text-[#0073e6] w-full text-xs font-medium
                                      mt-[6px] mb-6 pl-4 inline-block cursor-pointer">Login via OTP</span>
 
-                                    <div class="txt-fld h-[50px] flex items-center relative">
+                                    <div class="txt-fld w-full h-[50px] flex items-center relative">
                                         <input name="password" class="w-full h-full border rounded-lg border-[#dadce0] transition-border ease-in-out duration-200
                                         z-10 px-4 relative focus:outline-none focus:ring-[1.5px] focus:ring-[#1c4980]" type="password" id="password" required>
                                         <label id="label2" class="absolute z-[10] bg-[#fff] rounded-lg transition-all ease-linear duration-200 font-medium
@@ -86,9 +88,9 @@
                                         </span>
 
                                     </div>
-                                    <span id="error-message2" class="errorMessage hidden text-[#d63601] mt-[5px] text-[10px]
+                                    <span id="error-message2" class="errorMessage w-full hidden text-[#d63601] mt-[5px] text-[10px]
                                         font-medium text-right">Please enter password</span>
-                                    <span class="text-[#0073e6] inline-flex  items-center cursor-pointer gap-1 text-xs font-medium
+                                    <span class="text-[#0073e6] inline-flex w-full items-center cursor-pointer gap-1 text-xs font-medium
                                         mt-[6px] mb-6 pl-4"><img src="./assets/asset 10.svg" alt="">Forgot Password?</span>
                                     
                                     <button class="w-full z-20 h-[50px] rounded-[50px] bg-[#0073e6] cursor-pointer text-[#fff] 
@@ -96,24 +98,24 @@
                                         before:h-[50px] before:z-20 before:bg-[#245db0] before:absolute before:cursor-pointer
                                         before:w-full before:-left-[100%] hover:before:left-0 overflow-hidden before:origin-left before:duration-[.3s]">
                                         <span class="z-50">Login</span>
-                                        </span>
                                     </button>
-                                    <div class="signupLink w-full z-20 h-[50px] rounded-[50px] bg-[#fff] text-[#383838] 
+                                    <div class="signupLink w-full h-[50px] rounded-[50px] text-[#383838] 
                                     flex justify-center gap-1 border border-[#DADCE0] items-center text-sm mt-4 relative">
                                         Don't have an account? <a class="text-[#0073e6]" href="#">Sign up</a>
-                                    </div>
+                                </div>
                                 </form>
-                            </div>
+                                
+                        </div>
                         </div>
                     </div>
-                </section>
-            </section>
-        </div>
+              </section>
+        </section>
+      
     </div>
     <script>
  // Get the elements
 const loader = document.getElementById("loader");
-// const pElement = document.querySelector('.blur-container p');
+const blurContainer = document.querySelector('.blur-container');
 const wrapper = document.getElementById("wrapper");
 // Function to animate the blur effect and zoom-in
 function animateEffects() {
@@ -143,8 +145,10 @@ function zoomInImage() {
     loader.style.transform = `scale(${scaleValue})`;
     if (blurAmount >= 20) {
       clearInterval(zoomInterval);
+      blurContainer.style.display = "none";
       loader.style.visibility = "collapse";
       loader.style.opacity = 0;
+
       wrapper.style.display = "block";
     }
   }, 20);
