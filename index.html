@@ -1,236 +1,249 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login to Unstop.com</title>
-    <link rel="shortcut icon" href="./assets/unstop-icon.png" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="tailwindMani.css">
-</head>
-<body class="overflow-x-hidden">
-    <div class="blur-container relative flex items-center justify-center h-screen w-full">
-      <div id="loader" class="flex flex-col space-y-7 absolute">
-        <img width="100px" height="40px" class="visible relative" src="./assets/un-stop_logo.svg">
-        <p class="text-[#1c4980] font-Arial tracking-tight text-center font-normal">Please Wait</p>
-      </div>
-    </div>
-      <div id="wrapper" class="relative flex h-full w-full">
-        <section class="relative h-full mainSection w-full">
-          <img width="594px" height="437px" class="absolute hidden md:flex -z-[1] left-0 -bottom-[70px] bg-left-bottom" src="./assets/asset 12.png" alt="">
-          <img width="594px" height="426px" class="absolute hidden md:flex -z-[1] right-0 -top-[70px] bg-right-top" src="./assets/asset 13.png" alt="">
-              <section class="relative z-10 flex justify-center items-center h-screen w-full">
-                    <div class="boxCont bg-[#fff] flex md:h-[90vh] md:w-[900px] h-screen w-screen md:py-[10px] md:pl-[10px] md:rounded-t-xl md:rounded-br-xl overflow-hidden md:rounded-bl-[60px] ">
-                        <div class="leftBox hidden md:flex justify-center relative z-10 md:[900px] w-[600px] overflow-hidden md:rounded-tl-xl
-                            rounded-tr-[60px] rounded-br-xl rounded-bl-[60px] h-full bg-[#FFC700]">
-                            <img class="bg-cover overflow-hidden absolute mix-blend-overlay" src="./assets/asset 14.png" alt="">
-                            <img width="83px" class="absolute z-20 top-5 left-5" src="./assets/un-stop_logo.svg" alt="">
-                            <div class="h-full relative p-5 flex flex-col justify-center gap-5 z-50 ">
-                                <div class="carouselEffect relative flex items-center overflow-hidden ">
-                                    <img width="345px" src="./assets/asset 1.png">
-                                    <img width="345px" src="./assets/asset 2.png">
-                                    <img width="345px" src="./assets/asset 3.png">
-                                    <img width="345px" src="./assets/asset 4.png">
-                                    <img width="345px" src="./assets/asset 5.png">
-                                    <img width="345px" src="./assets/asset 6.png">
-                                    <img width="345px" src="./assets/asset 7.png">
-                                    <img width="345px" src="./assets/asset 1.png">
-                                </div> 
-                            </div>                                
-                        </div>
-                        <div class="rightBox flex justify-center relative z-10 w-full xl:w-[1200px] overflow-y-scroll">
 
-                                <form class="xl:w-[100vw] h-full w-[90vw] md:p-8 py-16 relative">
-                                  <div class="w-full flex flex-col md:justify-between justify-start relative">
-                                    <div class="w-full flex items-center gap-[10px] mb-10 relative">
-                                        <img width="90px" class="absolute md:hidden z-40 -left-15 -top-12" src="./assets/un-stop_logo.svg">
-                                        <img class="absolute block -left-11 -top-[16px]" src="./assets/asset 11.svg">
-                                        <img class="z-20" width="40px" height="40px" src="./assets/asset 9.png">
-                                        <div>
-                                            <span class="text-xs text-[#383838]">Hi, Unstoppable</span>
-                                            <h2 class="text-xl text-[#383838] font-medium">Welcome Back to Unstop!</h2>
-                                        </div>
-                                        <p class="w-2/4 h-[2px] absolute left-1 -bottom-[10px] bg-[#e7e5e5]
-                                        bg-gradient-to-r from-white via-[#e7e5e5] to-white">
-                                        </p>
-                                    </div>
-                                    <div class="relative w-full px-2 py-[2px]">
-                                      <div class="flex w-full px-4 text-[#202124] border border-[#dadce0] hover:border-[#9bf7ffe1] hover:bg-[#9bf7ff10] active:bg-blue-50 ease-in duration-100 rounded cursor-pointer h-10 text-center relative items-center justify-between">
-                                        <img width="20px" src="./assets/google.png" alt="">
-                                        <p class="text-sm grow-[1] font-medium tracking-[0.25px]">Continue with Google</p>
-                                      </div>
-                                    </div>
-                                    <div class="relative w-full flex my-6 justify-center">
-                                        <div class="absolute h-[1px] w-full top-0 m-auto bottom-0 left-0 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login to Unstop.com</title>
+  <link rel="shortcut icon" href="./assets/unstop-icon.png" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="tailwindMani.css">
+</head>
+
+<body class="overflow-x-hidden">
+  <div class="blur-container relative flex items-center justify-center h-screen w-full">
+    <div id="loader" class="flex flex-col space-y-7 absolute">
+      <img width="100px" height="40px" class="visible relative" src="./assets/un-stop_logo.svg">
+      <p class="text-[#1c4980] font-Arial tracking-tight text-center font-normal">Please Wait</p>
+    </div>
+  </div>
+  <div id="wrapper" class="relative flex h-full w-full">
+    <section class="relative h-full mainSection w-full">
+      <img width="594px" height="437px" class="absolute hidden md:flex -z-[1] left-0 -bottom-[70px] bg-left-bottom"
+        src="./assets/asset 12.png" alt="">
+      <img width="594px" height="426px" class="absolute hidden md:flex -z-[1] right-0 -top-[70px] bg-right-top"
+        src="./assets/asset 13.png" alt="">
+      <section class="relative z-10 flex justify-center items-center h-screen w-full">
+        <div
+          class="boxCont bg-[#fff] flex md:h-[90vh] md:w-[900px] h-screen w-screen md:py-[10px] md:pl-[10px] md:rounded-t-xl md:rounded-br-xl overflow-hidden md:rounded-bl-[60px] ">
+          <div class="leftBox hidden md:flex justify-center relative z-10 w-[50%] xl:w-full overflow-hidden md:rounded-tl-xl
+                  rounded-tr-[60px] rounded-br-xl rounded-bl-[60px] h-full bg-[#FFC700]">
+            <img class="bg-cover overflow-hidden absolute mix-blend-overlay" src="./assets/asset 14.png" alt="">
+            <img width="83px" class="absolute z-20 top-5 left-5" src="./assets/un-stop_logo.svg" alt="">
+            <div class="h-full relative p-5 flex flex-col justify-center gap-5 z-50 ">
+              <div class="carouselEffect relative flex items-center overflow-hidden ">
+                <img width="345px" src="./assets/asset 1.png">
+                <img width="345px" src="./assets/asset 2.png">
+                <img width="345px" src="./assets/asset 3.png">
+                <img width="345px" src="./assets/asset 4.png">
+                <img width="345px" src="./assets/asset 5.png">
+                <img width="345px" src="./assets/asset 6.png">
+                <img width="345px" src="./assets/asset 7.png">
+                <img width="345px" src="./assets/asset 1.png">
+              </div>
+            </div>
+          </div>
+          <div class="rightBox flex justify-center relative z-10 w-full xl:w-[1200px] overflow-y-scroll">
+            <form class="xl:w-[100vw] h-full w-[90vw] md:p-8 py-16 relative">
+              <div class="w-full flex flex-col md:justify-between justify-start relative">
+                <div class="w-full flex items-center gap-[10px] mb-10 relative">
+                  <img width="90px" class="absolute md:hidden z-40 -left-15 -top-12" src="./assets/un-stop_logo.svg">
+                  <img class="absolute block -left-11 -top-[16px]" src="./assets/asset 11.svg">
+                  <img class="z-20" width="40px" height="40px" src="./assets/asset 9.png">
+                  <div>
+                    <span class="text-xs text-[#383838]">Hi, Unstoppable</span>
+                    <h2 class="text-xl text-[#383838] font-medium">Welcome Back to Unstop!</h2>
+                  </div>
+                  <p
+                    class="w-2/4 h-[2px] absolute left-1 -bottom-[10px] bg-[#e7e5e5] bg-gradient-to-r from-white via-[#e7e5e5] to-white">
+                  </p>
+                </div>
+                <div class="relative w-full px-2 py-[2px]">
+                  <div
+                    class="flex w-full px-4 text-[#202124] border border-[#dadce0] hover:border-[#9bf7ffe1] hover:bg-[#9bf7ff10] active:bg-blue-50 ease-in duration-100 rounded cursor-pointer h-10 text-center relative items-center justify-between">
+                    <img width="20px" src="./assets/google.png" alt="">
+                    <p class="text-sm grow-[1] font-medium tracking-[0.25px]">Continue with Google</p>
+                  </div>
+                </div>
+                <div class="relative w-full flex my-6 justify-center">
+                  <div class="absolute h-[1px] w-full top-0 m-auto bottom-0 left-0 
                                             border-dashed border-t border-[#dadce0] -z-[1]"></div>
-                                        <span class="relative bg-[#fff] px-2 text-[#afafaf]
+                  <span class="relative bg-[#fff] px-2 text-[#afafaf]
                                              text-xs z-10 text-center">Or login with email
-                                            </span>
-                                    </div>
-                                    <div class="txt-fld w-full h-[50px] flex items-center relative">
-                                        <input class="w-full h-full border rounded-lg border-[#dadce0] transition-ring ease-in-out duration-200
-                                        z-10 px-4 relative focus:outline-none focus:ring-[1.5px] focus:ring-[#1c4980]" type="email" id="email" required>
-                                        <label id="label1" class="absolute z-[10] bg-[#fff] rounded-lg transition-all ease-linear duration-200 font-medium text-sm text-[#afafaf]
+                  </span>
+                </div>
+                <div class="txt-fld w-full h-[50px] flex items-center relative">
+                  <input class="w-full h-full border rounded-lg border-[#dadce0] transition-ring ease-in-out duration-200
+                                        z-10 px-4 relative focus:outline-none focus:ring-[1.5px] focus:ring-[#1c4980]"
+                    type="email" id="email" required>
+                  <label id="label1" class="absolute z-[10] bg-[#fff] rounded-lg transition-all ease-linear duration-200 font-medium text-sm text-[#afafaf]
                                         left-[10px] px-[6px]" for="email">Email Id</label>
-                                    </div>
-                                    <span id="error-message1" class="errorMessage w-full hidden text-[#d63601] mt-[5px] text-[10px]
+                </div>
+                <span id="error-message1" class="errorMessage w-full hidden text-[#d63601] mt-[5px] text-[10px]
                                         font-medium text-right">Please enter valid email</span>
-                                    <span id="logIn" class="text-[#0073e6] w-full text-xs font-medium
+                <span id="logIn" class="text-[#0073e6] w-full text-xs font-medium
                                      mt-[6px] mb-6 pl-4 inline-block cursor-pointer">Login via OTP</span>
 
-                                    <div class="txt-fld w-full h-[50px] flex items-center relative">
-                                        <input name="password" class="w-full h-full border rounded-lg border-[#dadce0] transition-border ease-in-out duration-200
-                                        z-10 px-4 relative focus:outline-none focus:ring-[1.5px] focus:ring-[#1c4980]" type="password" id="password" required>
-                                        <label id="label2" class="absolute z-[10] bg-[#fff] rounded-lg transition-all ease-linear duration-200 font-medium
-                                        text-sm text-[#afafaf] left-[10px] px-[6px]" for="password">Enter Your Password </label>
-                                        <span id="togglePassword" class="cursor-pointer hover:text-[#1e3050] text-[#afafaf] transition-all ease-in duration-200 absolute z-20 right-5" onclick="togglePasswordVisibility()" >
-                                            <i id="eyeIcon" class="fas fa-eye-slash"></i>
-                                        </span>
+                <div class="txt-fld w-full h-[50px] flex items-center relative">
+                  <input name="password" class="w-full h-full border rounded-lg border-[#dadce0] transition-border ease-in-out duration-200
+                                        z-10 px-4 relative focus:outline-none focus:ring-[1.5px] focus:ring-[#1c4980]"
+                    type="password" id="password" required>
+                  <label id="label2" class="absolute z-[10] bg-[#fff] rounded-lg transition-all ease-linear duration-200 font-medium
+                                        text-sm text-[#afafaf] left-[10px] px-[6px]" for="password">Enter Your Password
+                  </label>
+                  <span id="togglePassword"
+                    class="cursor-pointer hover:text-[#1e3050] text-[#afafaf] transition-all ease-in duration-200 absolute z-20 right-5"
+                    onclick="togglePasswordVisibility()">
+                    <i id="eyeIcon" class="fas fa-eye-slash"></i>
+                  </span>
 
-                                    </div>
-                                    <span id="error-message2" class="errorMessage w-full hidden text-[#d63601] mt-[5px] text-[10px]
+                </div>
+                <span id="error-message2" class="errorMessage w-full hidden text-[#d63601] mt-[5px] text-[10px]
                                         font-medium text-right">Please enter password</span>
-                                    <span class="text-[#0073e6] inline-flex w-full items-center cursor-pointer gap-1 text-xs font-medium
-                                        mt-[6px] mb-6 pl-4"><img src="./assets/asset 10.svg" alt="">Forgot Password?</span>
-                                    
-                                    <button class="w-full z-20 h-[50px] rounded-[50px] bg-[#0073e6] cursor-pointer text-[#fff] 
+                <span class="text-[#0073e6] inline-flex w-full items-center cursor-pointer gap-1 text-xs font-medium
+                                        mt-[6px] mb-6 pl-4"><img src="./assets/asset 10.svg" alt="">Forgot
+                  Password?</span>
+
+                <button
+                  class="w-full z-20 h-[50px] rounded-[50px] bg-[#0073e6] cursor-pointer text-[#fff] 
                                         flex justify-center items-center text-sm font-medium relative
                                         before:h-[50px] before:z-20 before:bg-[#245db0] before:absolute before:cursor-pointer
                                         before:w-full before:-left-[100%] hover:before:left-0 overflow-hidden before:origin-left before:duration-[.3s]">
-                                        <span class="z-50">Login</span>
-                                    </button>
-                                    <div class="signupLink w-full h-[50px] rounded-[50px] text-[#383838] 
+                  <span class="z-50">Login</span>
+                </button>
+                <div
+                  class="signupLink w-full h-[50px] rounded-[50px] text-[#383838] 
                                     flex justify-center gap-1 border border-[#DADCE0] items-center text-sm mt-4 relative">
-                                        Don't have an account? <a class="text-[#0073e6]" href="#">Sign up</a>
-                                </div>
-                                </form>
-                                
-                        </div>
-                        </div>
-                    </div>
-              </section>
-        </section>
-      
-    </div>
-    <script>
- // Get the elements
-const loader = document.getElementById("loader");
-const blurContainer = document.querySelector('.blur-container');
-const wrapper = document.getElementById("wrapper");
-// Function to animate the blur effect and zoom-in
-function animateEffects() {
-  let opacityValue = 0; // Initial opacity value
-  const animationInterval = setInterval(() => {
-    // Increase opacity values
-    opacityValue += 1;
-    // Apply the updated values to the image element
-    loader.style.opacity = opacityValue;
-    // Stop the animation when blur amount reaches 0
-    if (opacityValue >= 0) {
-      clearInterval(animationInterval);
-      setTimeout(zoomInImage, 3000); // Call the function after 5seconds delay
-    }
-  }, 50);
-}
-// Function to animate the zoom-in effect with continuous blur
-function zoomInImage() {
-  let blurAmount = 0; // Initial blur amount
-  let scaleValue = 1; // Initial scale value
-  const zoomInterval = setInterval(() => {
-    // Increase blur amount and scale value for zoom-in effect
-    blurAmount += 1;
-    scaleValue += 0.05;
-    // Apply the updated scale value and blur effect to the elements
-    loader.style.filter = `blur(${blurAmount}px)`;
-    loader.style.transform = `scale(${scaleValue})`;
-    if (blurAmount >= 20) {
-      clearInterval(zoomInterval);
-      blurContainer.style.display = "none";
-      loader.style.visibility = "collapse";
-      loader.style.opacity = 0;
+                  Don't have an account? <a class="text-[#0073e6]" href="#">Sign up</a>
+                </div>
+            </form>
 
-      wrapper.style.display = "block";
-    }
-  }, 20);
-}
-window.onload = animateEffects;
+          </div>
+        </div>
+  </div>
+  </section>
+  </section>
 
-//-----------------------------------------------------------------------------------------------------------------
-function initializeTxtFld() {
-  const email = document.getElementById("email");
-  const password = document.getElementById("password");
-  const errorMessage1 = document.getElementById("error-message1");
-  const errorMessage2 = document.getElementById("error-message2");
-  const logIn = document.getElementById("logIn");
-  email.addEventListener("blur", function () {
-    const isValid = isValidEmail(email.value);
-    if (!isValid) {
-      logIn.style.color = "#afafafea";
-      logIn.classList.remove("cursor-pointer");
-      email.style.borderColor = "#d63601";
-      errorMessage1.classList.remove("hidden");
-    } else {
-      logIn.style.color = "#0073e6";
-      logIn.classList.add("cursor-pointer");
+  </div>
+  <script>
+    // Get the elements
+    const loader = document.getElementById("loader");
+    const blurContainer = document.querySelector('.blur-container');
+    const wrapper = document.getElementById("wrapper");
+    // Function to animate the blur effect and zoom-in
+    function animateEffects() {
+      let opacityValue = 0; // Initial opacity value
+      const animationInterval = setInterval(() => {
+        // Increase opacity values
+        opacityValue += 1;
+        // Apply the updated values to the image element
+        loader.style.opacity = opacityValue;
+        // Stop the animation when blur amount reaches 0
+        if (opacityValue >= 0) {
+          clearInterval(animationInterval);
+          setTimeout(zoomInImage, 3000); // Call the function after 5seconds delay
+        }
+      }, 50);
     }
-  });
-  email.addEventListener("keyup", function () {
-    const isValid = isValidEmail(email.value);
-    if (!isValid) {
-      email.style.backgroundColor = "#fff";
-      email.style.borderColor = "#d63601";
-      errorMessage1.classList.remove("hidden");
-    }else{
-      logIn.style.color = "#0073e6";
-      email.style.backgroundColor = "#E8F0FE";
-      errorMessage1.classList.add("hidden");
-      email.style.borderColor = "#dadce0";
+    // Function to animate the zoom-in effect with continuous blur
+    function zoomInImage() {
+      let blurAmount = 0; // Initial blur amount
+      let scaleValue = 1; // Initial scale value
+      const zoomInterval = setInterval(() => {
+        // Increase blur amount and scale value for zoom-in effect
+        blurAmount += 1;
+        scaleValue += 0.05;
+        // Apply the updated scale value and blur effect to the elements
+        loader.style.filter = `blur(${blurAmount}px)`;
+        loader.style.transform = `scale(${scaleValue})`;
+        if (blurAmount >= 20) {
+          clearInterval(zoomInterval);
+          blurContainer.style.display = "none";
+          loader.style.visibility = "collapse";
+          loader.style.opacity = 0;
+
+          wrapper.style.display = "block";
+        }
+      }, 20);
     }
-  });
-  // Function to validate email using a regular expression pattern
-  function isValidEmail(email) {
-    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return emailPattern.test(email);
-  }
-  password.addEventListener("keyup", function () {
-    if (password.value === '') {
-      password.style.borderColor = "#d63601";
-      password.style.backgroundColor = "#fff";
-      errorMessage2.classList.remove("hidden");
-    }else{
-      errorMessage2.classList.add("hidden");
-      // password.style.borderColor = "";
-      password.style.backgroundColor = "#E8F0FE";
-      password.style.borderColor = "#dadce0";
-    }
-  });
-  password.addEventListener("blur", function () {
-    if (password.value === '') {
-      password.style.borderColor = "#d63601";
-      errorMessage2.classList.remove("hidden");
-    } 
-  });
-  email.addEventListener("blur", () => {
-    let hasTransformed = false;
-    document.getElementById("label1");
-    if (email.value !== "" && !hasTransformed) {
-      label1.style.transform = "translateY(-25px)";
-      label1.style.fontSize = "12px";
-      hasTransformed = false;
-    }
-    email.addEventListener("focus", () => {
-      // Reset the translation if transformation has occurred
-      if (hasTransformed) {
-        label1.style.transform = "translateY(0)";
+    window.onload = animateEffects;
+
+    //-----------------------------------------------------------------------------------------------------------------
+    function initializeTxtFld() {
+      const email = document.getElementById("email");
+      const password = document.getElementById("password");
+      const errorMessage1 = document.getElementById("error-message1");
+      const errorMessage2 = document.getElementById("error-message2");
+      const logIn = document.getElementById("logIn");
+      email.addEventListener("blur", function () {
+        const isValid = isValidEmail(email.value);
+        if (!isValid) {
+          logIn.style.color = "#afafafea";
+          logIn.classList.remove("cursor-pointer");
+          email.style.borderColor = "#d63601";
+          errorMessage1.classList.remove("hidden");
+        } else {
+          logIn.style.color = "#0073e6";
+          logIn.classList.add("cursor-pointer");
+        }
+      });
+      email.addEventListener("keyup", function () {
+        const isValid = isValidEmail(email.value);
+        if (!isValid) {
+          email.style.backgroundColor = "#fff";
+          email.style.borderColor = "#d63601";
+          errorMessage1.classList.remove("hidden");
+        } else {
+          logIn.style.color = "#0073e6";
+          email.style.backgroundColor = "#E8F0FE";
+          errorMessage1.classList.add("hidden");
+          email.style.borderColor = "#dadce0";
+        }
+      });
+      // Function to validate email using a regular expression pattern
+      function isValidEmail(email) {
+        const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailPattern.test(email);
       }
-    });
-  });
-}
+      password.addEventListener("keyup", function () {
+        if (password.value === '') {
+          password.style.borderColor = "#d63601";
+          password.style.backgroundColor = "#fff";
+          errorMessage2.classList.remove("hidden");
+        } else {
+          errorMessage2.classList.add("hidden");
+          // password.style.borderColor = "";
+          password.style.backgroundColor = "#E8F0FE";
+          password.style.borderColor = "#dadce0";
+        }
+      });
+      password.addEventListener("blur", function () {
+        if (password.value === '') {
+          password.style.borderColor = "#d63601";
+          errorMessage2.classList.remove("hidden");
+        }
+      });
+      email.addEventListener("blur", () => {
+        let hasTransformed = false;
+        document.getElementById("label1");
+        if (email.value !== "" && !hasTransformed) {
+          label1.style.transform = "translateY(-25px)";
+          label1.style.fontSize = "12px";
+          hasTransformed = false;
+        }
+        email.addEventListener("focus", () => {
+          // Reset the translation if transformation has occurred
+          if (hasTransformed) {
+            label1.style.transform = "translateY(0)";
+          }
+        });
+      });
+    }
 
-//-----------------------------------------------------------------------------------------------------------------
-const txtFlds = document.querySelectorAll(".txt-fld");
-txtFlds.forEach(initializeTxtFld);
-  function togglePasswordVisibility() {
+    //-----------------------------------------------------------------------------------------------------------------
+    const txtFlds = document.querySelectorAll(".txt-fld");
+    txtFlds.forEach(initializeTxtFld);
+    function togglePasswordVisibility() {
       const passwordField = document.getElementById("password");
       const togglePassword = document.getElementById("togglePassword");
 
@@ -238,21 +251,22 @@ txtFlds.forEach(initializeTxtFld);
         passwordField.type = "text";
         togglePassword.style.color = "#1e3050";
         togglePassword.innerHTML = '<i class="fas fa-eye"></i>';
-      } 
+      }
       else {
         passwordField.type = "password";
         togglePassword.innerHTML = '<i class="fas fa-eye-slash"></i>';
         // Add mouseover event listener to change the label's color
         togglePassword.addEventListener("mouseover", () => {
-        togglePassword.style.color = "#1e3050";
+          togglePassword.style.color = "#1e3050";
         });
         // Add mouseout event listener to reset the label's color
         togglePassword.addEventListener("mouseout", () => {
-        togglePassword.style.color = "#afafaf";
+          togglePassword.style.color = "#afafaf";
         });
       }
     }
-    </script>
-    <script src="https://kit.fontawesome.com/6942583f36.js" crossorigin="anonymous"></script>
+  </script>
+  <script src="https://kit.fontawesome.com/6942583f36.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
