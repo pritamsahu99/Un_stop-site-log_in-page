@@ -10,7 +10,7 @@
 
 ###
 <div align="center">
-  <img src="https://onedrive.live.com/embed?resid=6916E26BD8ADAA98%2138718&authkey=%21AEhApcBucRuF0FY&width=300&height=784" width="733" height="784" />
+  <img src="https://onedrive.live.com/embed?resid=6916E26BD8ADAA98%2138718&authkey=%21AEhApcBucRuF0FY&height=256" width="auto" height="256" />
 </div>
 
 <h4 align="cenetr">#Unstop_website-login_page</h4>
