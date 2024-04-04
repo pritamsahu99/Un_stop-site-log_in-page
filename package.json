@@ -4,8 +4,8 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "start":"vite"
-   }, 
+    "start": "vite"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
